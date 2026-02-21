@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-SUP — Electric Propulsion for Stand-Up Paddle Boards</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">E<span>-SUP</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#engineering">Engineering</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+        <li><a href="#team">Team</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-tag">Prototype 2020–2025</p>
+      <h1>E-SUP</h1>
+      <p class="hero-subtitle">Detachable electric propulsion kit for inflatable stand-up paddle boards</p>
+      <div class="hero-actions">
+        <a href="#about" class="btn btn-primary">Learn More</a>
+        <a href="#engineering" class="btn btn-outline">View Engineering</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-value">2</span>
+          <span class="stat-label">Independent Motors</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">4</span>
+          <span class="stat-label">Battery Packs</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">2</span>
+          <span class="stat-label">Wireless Controllers</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Overview</p>
+        <h2>What is E-SUP?</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="lead">E-SUP is a detachable electric propulsion kit designed for standard inflatable stand-up paddle boards.</p>
+          <p>The system consists of a <strong>waterproof control box</strong> mounted on top of the SUP and <strong>two electric motors</strong> integrated into fins mounted underneath the board.</p>
+          <p>Each motor is powered and controlled independently, allowing <strong>differential steering</strong>, <strong>redundancy</strong>, and <strong>modular servicing</strong>.</p>
+          <p>There is no need to adjust or change a standard SUP board — the system can be easily installed and removed as a true <strong>plug &amp; play</strong> solution.</p>
+        </div>
+        <div class="about-visual">
+          <div class="feature-card highlight-card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </div>
+            <h3>Plug &amp; Play</h3>
+            <p>Install on any standard inflatable SUP board in minutes. No modifications required.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section vision" id="vision">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">In Action</p>
+        <h2>Vision</h2>
+      </div>
+      <div class="vision-grid">
+        <div class="vision-card">
+          <div class="vision-image-wrapper">
+            <img src="images/esup-day.png" alt="E-SUP at full throttle on a Swiss lake" class="vision-image">
+          </div>
+          <p class="vision-caption">Full throttle on a Swiss lake — the E-SUP system powering an inflatable SUP with wireless handheld controllers.</p>
+        </div>
+        <div class="vision-card">
+          <div class="vision-image-wrapper">
+            <img src="images/esup-night.png" alt="E-SUP at night with LED lighting" class="vision-image">
+          </div>
+          <p class="vision-caption">Night ride with integrated LED strips illuminating the water — showcasing the system's auxiliary lighting capabilities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section engineering" id="engineering">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Technical</p>
+        <h2>Engineering</h2>
+      </div>
+
+      <div class="subsection" id="architecture">
+        <h3 class="subsection-title">System Architecture</h3>
+        <div class="arch-grid">
+          <div class="arch-card" data-delay="0">
+            <div class="arch-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="10" rx="2"/><path d="M6 7V5a2 2 0 012-2h8a2 2 0 012 2v2"/><line x1="6" y1="12" x2="6" y2="12"/><line x1="10" y1="12" x2="10" y2="12"/></svg>
+            </div>
+            <h3>4 Battery Packs</h3>
+            <p>Housed in a waterproof enclosure providing reliable power to both motor circuits.</p>
+          </div>
+          <div class="arch-card" data-delay="100">
+            <div class="arch-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+            </div>
+            <h3>2 Independent Motor Circuits</h3>
+            <p>Left and right motors operate on separate power and control paths for full redundancy.</p>
+          </div>
+          <div class="arch-card" data-delay="200">
+            <div class="arch-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2"/><circle cx="12" cy="18" r="1"/><path d="M9 6h6"/></svg>
+            </div>
+            <h3>2 Wireless Controllers</h3>
+            <p>Handheld wireless controllers provide independent throttle for each motor.</p>
+          </div>
+          <div class="arch-card" data-delay="300">
+            <div class="arch-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2.69l5.66 5.66a8 8 0 11-11.31 0z"/></svg>
+            </div>
+            <h3>Water-Cooled ESCs</h3>
+            <p>Electronic speed controllers actively cooled via closed-loop water circulation.</p>
+          </div>
+          <div class="arch-card" data-delay="400">
+            <div class="arch-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3>Modular Mounting</h3>
+            <p>Secured using straps and standard fin rails — fits any inflatable SUP board.</p>
+          </div>
+          <div class="arch-card" data-delay="500">
+            <div class="arch-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Fully Waterproof</h3>
+            <p>Complete waterproof system architecture with sealed bulkhead connectors throughout.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="subsection" id="components">
+        <h3 class="subsection-title">System Components</h3>
+        <div class="components-tabs">
+          <button class="tab-btn active" data-tab="control-box">Control Box</button>
+          <button class="tab-btn" data-tab="propulsion">Propulsion &amp; Cooling</button>
+        </div>
+        <div class="tab-content active" id="control-box">
+          <div class="component-grid">
+            <div class="component-card">
+              <h4>Waterproof Enclosure</h4>
+              <p>Houses batteries, ESCs, receivers, and all internal wiring in a sealed environment.</p>
+            </div>
+            <div class="component-card">
+              <h4>Main Rotary Switches</h4>
+              <p>Individual left/right motor power enable switches for independent control.</p>
+            </div>
+            <div class="component-card">
+              <h4>Status Displays</h4>
+              <p>System and battery status indication for real-time monitoring.</p>
+            </div>
+            <div class="component-card">
+              <h4>Voltage Meter</h4>
+              <p>Manual DC voltage monitoring for battery health checks.</p>
+            </div>
+            <div class="component-card">
+              <h4>Bulkhead Connectors</h4>
+              <p>Waterproof connectors for motor phase outputs and auxiliary connections.</p>
+            </div>
+            <div class="component-card">
+              <h4>Internal Wiring</h4>
+              <p>High-current XT connectors, fused and strain-relieved for safety and durability.</p>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content" id="propulsion">
+          <div class="component-grid">
+            <div class="component-card">
+              <h4>Electric Motors (2x)</h4>
+              <p>Independent left/right propulsion units providing balanced thrust.</p>
+            </div>
+            <div class="component-card">
+              <h4>3D-Printed Fin Housings</h4>
+              <p>Structural mount and hydrodynamic element combining function and form.</p>
+            </div>
+            <div class="component-card">
+              <h4>3-Phase Waterproof Cables</h4>
+              <p>Sealed motor power connections rated for continuous submersion.</p>
+            </div>
+            <div class="component-card">
+              <h4>ESCs (2x)</h4>
+              <p>Electronic speed controllers with active water cooling for sustained performance.</p>
+            </div>
+            <div class="component-card">
+              <h4>Water Pump</h4>
+              <p>Active circulation pump driving coolant through the ESC cooling loop.</p>
+            </div>
+            <div class="component-card">
+              <h4>Silicone Tubes</h4>
+              <p>Closed cooling circuit inside the enclosure for reliable thermal management.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="subsection" id="diagram">
+        <h3 class="subsection-title">Electrical &amp; Control Architecture</h3>
+        <div class="diagram-wrapper">
+          <div class="diagram-box">
+            <div class="diagram-col left-system">
+              <div class="diagram-node controller">Handheld Controller<br><small>Left</small></div>
+              <div class="diagram-arrow">
+                <span class="arrow-label">Wireless</span>
+              </div>
+              <div class="diagram-node receiver">Receiver<br><small>Left</small></div>
+              <div class="diagram-arrow">
+                <span class="arrow-label">Signal</span>
+              </div>
+              <div class="diagram-node esc">ESC<br><small>Left, Water-Cooled</small></div>
+              <div class="diagram-arrow">
+                <span class="arrow-label">3-Phase</span>
+              </div>
+              <div class="diagram-node motor">Motor + Fin<br><small>Left</small></div>
+            </div>
+
+            <div class="diagram-col center-power">
+              <div class="diagram-node battery">Battery Packs (x4)</div>
+              <div class="diagram-arrow"><span class="arrow-label">Power</span></div>
+              <div class="diagram-node switches">Main Switches<br><small>L / R</small></div>
+              <div class="diagram-arrow"><span class="arrow-label">Independent Buses</span></div>
+              <div class="diagram-node bus">Power Distribution</div>
+              <div class="diagram-aux">
+                <h4>Auxiliary Systems</h4>
+                <ul>
+                  <li>Water Pump</li>
+                  <li>Displays</li>
+                  <li>Voltage Meter</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="diagram-col right-system">
+              <div class="diagram-node controller">Handheld Controller<br><small>Right</small></div>
+              <div class="diagram-arrow">
+                <span class="arrow-label">Wireless</span>
+              </div>
+              <div class="diagram-node receiver">Receiver<br><small>Right</small></div>
+              <div class="diagram-arrow">
+                <span class="arrow-label">Signal</span>
+              </div>
+              <div class="diagram-node esc">ESC<br><small>Right, Water-Cooled</small></div>
+              <div class="diagram-arrow">
+                <span class="arrow-label">3-Phase</span>
+              </div>
+              <div class="diagram-node motor">Motor + Fin<br><small>Right</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Highlights</p>
+        <h2>Key Design Characteristics</h2>
+      </div>
+      <div class="features-list">
+        <div class="feature-item">
+          <div class="feature-number">01</div>
+          <div class="feature-content">
+            <h3>Fully Waterproof Architecture</h3>
+            <p>Every component is sealed and protected. Waterproof bulkhead connectors, sealed enclosures, and strain-relieved wiring ensure reliable operation in aquatic environments.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-number">02</div>
+          <div class="feature-content">
+            <h3>Independent Control &amp; Power Paths</h3>
+            <p>Each motor has its own dedicated power bus, ESC, receiver, and controller. This enables differential steering and ensures the system remains operational even if one side fails.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-number">03</div>
+          <div class="feature-content">
+            <h3>Modular Assembly &amp; Fast Disassembly</h3>
+            <p>The entire system installs and removes without any modifications to the board. Straps, fin rails, and quick-connect plugs make setup and teardown a breeze.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-number">04</div>
+          <div class="feature-content">
+            <h3>Differential Steering</h3>
+            <p>Two fully independent electrical drive systems allow precise directional control by varying the speed of each motor independently.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-number">05</div>
+          <div class="feature-content">
+            <h3>Built-In Redundancy</h3>
+            <p>Single-motor operation is possible if needed. The system is designed so that each side can function autonomously, providing a safety net on the water.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section roadmap" id="roadmap">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Next Steps</p>
+        <h2>Development Roadmap</h2>
+      </div>
+      <p class="roadmap-intro">The system is functional at prototype level and serves as a foundation for the following development tracks:</p>
+      <div class="roadmap-timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Mechanical Refinement</h3>
+            <p>Optimize fin housing geometry, mounting mechanisms, and overall structural integrity for production readiness.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Electrical Simplification</h3>
+            <p>Reduce wiring complexity, consolidate connectors, and improve the power distribution architecture.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Improved Sealing &amp; Manufacturability</h3>
+            <p>Transition from prototype-level waterproofing to production-grade sealing solutions suitable for mass manufacturing.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>System Testing &amp; Certification</h3>
+            <p>Conduct comprehensive testing and pursue relevant certifications for market entry.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section supported-by" id="supported-by">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Partners</p>
+        <h2>Supported By</h2>
+      </div>
+      <div class="supporters">
+        <a href="https://sph.ethz.ch/" target="_blank" rel="noopener noreferrer" class="supporter-logo">
+          <img src="images/eth-sph-logo.svg" alt="ETH Student Project House">
+        </a>
+        <a href="https://www.recreazzz.repair/" target="_blank" rel="noopener noreferrer" class="supporter-logo">
+          <img src="images/recreazzz-logo.png" alt="recreazzz.repair" class="logo-light">
+        </a>
+        <a href="https://www.eride.africa/" target="_blank" rel="noopener noreferrer" class="supporter-logo">
+          <img src="images/eride-logo.svg" alt="E-Ride Africa" class="logo-native">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section team" id="team">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">The People</p>
+        <h2>Meet the Team</h2>
+      </div>
+      <div class="team-content">
+        <div class="team-image-wrapper">
+          <img src="images/team.png" alt="E-SUP team working in the workshop" class="team-image">
+        </div>
+        <p class="team-caption">Oihan, Ernest, and Jacob — the E-SUP team at work in the workshop, prototyping, testing, and iterating on the next generation of electric SUP propulsion.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="#hero" class="footer-logo">E<span>-SUP</span></a>
+          <p>Detachable electric propulsion for inflatable stand-up paddle boards.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Sections</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#engineering">Engineering</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#roadmap">Roadmap</a></li>
+            <li><a href="#team">Team</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 E-SUP Project. Prototype documentation.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
